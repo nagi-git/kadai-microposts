@@ -10,7 +10,7 @@
           <p class="mb-0"><%= micropost.content %></p>
         </div>
         <div>
-          <img class="mr-2 rounded" src="<%= image_tag(@micropost.img_url) if @micropost.img.present? %>" alt="">
+          <%= image_tag(micropost.img_url, class: 'mw-100 rounded') if micropost.img.present? %>
         </div>
         <div>
           <% if current_user == micropost.user %>
