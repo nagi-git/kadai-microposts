@@ -58,6 +58,7 @@ gem 'kaminari'
 gem 'carrierwave'
 gem 'rails_12factor', group: :production
 gem 'cloudinary'
+gem 'fog-aws'
 
 group :production do
   gem 'pg', '>= 0.18', '< 2.0'
