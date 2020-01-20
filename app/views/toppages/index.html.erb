@@ -8,7 +8,7 @@
         <div class="form-group">
          <%= f.file_field :img, class: "image" %>
         </div>
-        <%= f.submit 'つぶやく', class: 'btn btn-primary btn-block' %>
+        <%= f.submit 'Post', class: 'btn btn-primary btn-block' %>
       <% end %>
     </aside>
     <div class="col-sm-8">
@@ -18,8 +18,8 @@
 <% else %>
   <div class="center jumbotron">
     <div class="text-center">
-      <h1>つぶやきポストへようこそ！</h1>
-      <%= link_to 'ユーザー登録', signup_path, class: 'btn btn-lg btn-primary' %>
+      <h1>Welcome to the Microposts</h1>
+      <%= link_to 'Sign up now!', signup_path, class: 'btn btn-lg btn-primary' %>
     </div>
   </div>
 <% end %>
