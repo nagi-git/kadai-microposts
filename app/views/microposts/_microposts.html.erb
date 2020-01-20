@@ -4,7 +4,7 @@
       <img class="mr-2 rounded" src="<%= gravatar_url(micropost.user, { size: 50 }) %>" alt="">
       <div class="media-body">
         <div>
-          <%= link_to micropost.user.name, user_path(micropost.user) %> <span class="text-muted"><!--つぶやき時間--><%= micropost.created_at %></span>
+          <%= link_to micropost.user.name, user_path(micropost.user) %> <span class="text-muted"><!--つぶやき時間--><%= micropost.created_at.to_s(:datetime) %></span>
         </div>
         <div>
           <p class="mb-0"><%= micropost.content %></p>
