@@ -14,6 +14,7 @@ https://microposts373.herokuapp.com/
 </br>　・AWS
 </br>
 <h3>画面（参考）</h3>
-</br></br>
+
+
 ![9](https://user-images.githubusercontent.com/53360448/89261019-4e7d5180-d668-11ea-89b3-8466ccf372df.png)
 
